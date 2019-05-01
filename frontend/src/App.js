@@ -1,11 +1,13 @@
 import React from 'react';
-
+import MemeGenerator from './generator.js';
+import Header from './header.js';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Meme Generator!!</h1>
+    <div>
+      <MemeGenerator />
+      
     </div>
   );
 }
